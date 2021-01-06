@@ -15,3 +15,4 @@ repos:
       - id: check-executables-have-shebangs
       - id: check-json
       - id: check-merge-conflict
+      - id: check-symlinks
