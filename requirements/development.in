@@ -1,2 +1,4 @@
 -r base.in
+
 pip-tools
+pre-commit
