@@ -10,4 +10,5 @@ repos:
         args: ["--maxkb=1024"]
       - id: check-ast
       - id: check-builtin-literals
+      - id: check-case-conflict
 
