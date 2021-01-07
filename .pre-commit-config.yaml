@@ -24,3 +24,4 @@ repos:
       - id: detect-aws-credentials
       - id: detect-private-key
       - id: end-of-file-fixer
+      - id: fix-byte-order-marker
