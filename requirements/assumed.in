@@ -1,4 +1,0 @@
-# Optional dependencies dependent on contributors' personal workflows.
-
-pip-tools
-pipenv
