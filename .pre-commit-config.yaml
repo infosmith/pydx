@@ -1,7 +1,12 @@
 default_stages: [commit]
-exclude: '.git'
+exclude: ".git"
 fail_fast: true
 repos:
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.25.0
+    hooks:
+      - id: yamllint
+
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v0.790
     hooks:
@@ -22,7 +27,6 @@ repos:
       - id: check-symlinks
       - id: check-toml
       - id: check-xml
-      - id: check-yaml
       - id: debug-statements
       - id: destroyed-symlinks
       - id: detect-aws-credentials
@@ -47,7 +51,7 @@ repos:
     rev: 3.8.4
     hooks:
       - id: flake8
-        args: ['--config=setup.cfg']
+        args: ["--config=setup.cfg"]
 
   - repo: https://github.com/PyCQA/isort
     rev: 5.7.0
