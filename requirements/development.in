@@ -1,5 +1,6 @@
 -r base.in
 
+black
 doc8
 pip-tools
 pre-commit
