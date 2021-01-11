@@ -1,0 +1,10 @@
+[tool.isort]
+profile = "black"
+
+[tool.pylint.master]
+disable = [
+    "C0330",
+    "C0326"
+]
+[tool.pylint.messages_control]
+max-line-length = 88
