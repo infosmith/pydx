@@ -1,5 +1,6 @@
 """Python Developer eXperience (PyDx) console application installation."""
 import pathlib
+
 import setuptools
 
 
