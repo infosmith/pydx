@@ -1,5 +1,6 @@
 -r base.in
 
+bandit
 black
 doc8
 flake8
