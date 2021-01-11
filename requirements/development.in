@@ -4,5 +4,6 @@ black
 doc8
 flake8
 isort
+mypy
 pip-tools
 pre-commit
