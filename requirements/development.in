@@ -2,5 +2,6 @@
 
 black
 doc8
+flake8
 pip-tools
 pre-commit
