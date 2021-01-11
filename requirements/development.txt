@@ -54,6 +54,10 @@ identify==1.5.11 \
     --hash=sha256:7aef7a5104d6254c162990e54a203cdc0fd202046b6c415bd5d636472f6565c4 \
     --hash=sha256:b2c71bf9f5c482c389cef816f3a15f1c9d7429ad70f497d4a2e522442d80c6de
     # via pre-commit
+isort==5.7.0 \
+    --hash=sha256:c729845434366216d320e936b8ad6f9d681aab72dc7cbc2d51bedc3582f3ad1e \
+    --hash=sha256:fff4f0c04e1825522ce6949973e83110a6e907750cd92d128b0d14aaaadbffdc
+    # via -r ./requirements/development.in
 mccabe==0.6.1 \
     --hash=sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42 \
     --hash=sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f

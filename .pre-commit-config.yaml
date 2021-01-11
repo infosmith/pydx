@@ -44,3 +44,8 @@ repos:
     hooks:
       - id: flake8
         args: ['--config=setup.cfg']
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.7.0
+    hooks:
+      - id: isort
