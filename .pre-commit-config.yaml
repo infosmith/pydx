@@ -41,6 +41,12 @@ repos:
     hooks:
       - id: black
 
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.0
+    hooks:
+      - id: bandit
+        args: ["--configfile .bandit.yaml"]
+
   - repo: https://github.com/PyCQA/doc8
     rev: 0.8.1
     hooks:
