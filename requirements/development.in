@@ -2,6 +2,7 @@
 
 bandit
 black
+darglint
 doc8
 flake8
 isort
