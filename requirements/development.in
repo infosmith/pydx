@@ -4,6 +4,7 @@ bandit
 black
 darglint
 doc8
+codespell
 flake8
 isort
 mypy
