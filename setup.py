@@ -5,6 +5,14 @@ import setuptools
 
 
 def is_pip_compile_noise(line_of_requirements_file):
+    """Check if line in requirements file is not a dependency declaration.
+
+    Args:
+        line_of_requirements_file: line from requirements*.txt file
+
+    Returns:
+        Boolean indicating if line is suspected noise from pip-compile comments.
+    """
     return any(
         [
             line_of_requirements_file.startswith(" "),
