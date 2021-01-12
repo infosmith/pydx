@@ -32,6 +32,10 @@ click==7.1.2 \
     #   -r ./requirements/base.in
     #   black
     #   pip-tools
+codespell==2.0.0 \
+    --hash=sha256:a10b8bbb9f678e4edff7877af1f654fdc9e27c205f952c3ddee2981ad02ec5f2 \
+    --hash=sha256:dd9983e096b9f7ba89dd2d2466d1fc37231d060f19066331b9571341363c77b8
+    # via -r ./requirements/development.in
 darglint==1.5.8 \
     --hash=sha256:2e1012945a09d19a15cc87f9d15e7b14c18473ec9cf7769c641951b348de1353 \
     --hash=sha256:529f4969029d5ff5f74bfec48adc14b6f003409141f722b6cc4b787dddc8a4dd
